@@ -20,8 +20,8 @@ window.MAVORY_RELEASE = {
       url: "https://drive.google.com/file/d/1RLu50swHKMAOxvBofsduz16aV2KlSTm3/view", manual: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" }
   ],
   flow: {
-    full:  { version: "v2.0", url: "https://flow.google.com/shared/tool/9e686917-c9c2-429e-a5d3-220f1e4d3b40" },
-    trial: { version: "รุ่น t6.1", url: "https://flow.google.com/shared/tool/9de2503f-1ac2-437e-aa53-7cd7f59236be" }
+    full:  { version: "v2.0", url: "https://flow.google.com/shared/tool/e6e561fb-87ce-4347-8899-76c8c393f3f0" },
+    trial: { version: "รุ่น t6.2", url: "https://flow.google.com/shared/tool/d364cc7a-edb0-48d5-98ac-0e81b41a6588" }
   },
   manuals: [
     { title: "ติดตั้งส่วนขยาย MAVORY บน Chrome (Windows)", note: "วิดีโอสอนติดตั้งและเริ่มใช้งานส่วนขยายบนคอมพิวเตอร์", url: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" },
