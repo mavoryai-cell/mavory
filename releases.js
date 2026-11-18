@@ -21,7 +21,7 @@ window.MAVORY_RELEASE = {
   ],
   flow: {
     full:  { version: "v1.55", url: "https://flow.google.com/shared/tool/714984e5-7481-4e37-ac11-3daab28b10d6" },
-    trial: { version: "รุ่น t5.0", url: "https://flow.google.com/shared/tool/536c2283-a35c-4ae7-9c10-30b758b225be" }
+    trial: { version: "รุ่น t5.3", url: "https://flow.google.com/shared/tool/248c45a3-a744-4438-96ea-43819968248b" }
   },
   manuals: [
     { title: "ติดตั้งส่วนขยาย MAVORY บน Chrome (Windows)", note: "วิดีโอสอนติดตั้งและเริ่มใช้งานส่วนขยายบนคอมพิวเตอร์", url: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" },
