@@ -20,7 +20,7 @@ window.MAVORY_RELEASE = {
       url: "https://drive.google.com/file/d/1a0VQylla76kt5I7YZAmzefhg37Zdf-qa/view", manual: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" }
   ],
   flow: {
-    full:  { version: "v1.52", url: "https://flow.google.com/shared/tool/db293e24-10f0-4d33-a79c-219aa352c89c" },
+    full:  { version: "v1.55", url: "https://flow.google.com/shared/tool/714984e5-7481-4e37-ac11-3daab28b10d6" },
     trial: { version: "รุ่น t5.0", url: "https://flow.google.com/shared/tool/536c2283-a35c-4ae7-9c10-30b758b225be" }
   },
   manuals: [
