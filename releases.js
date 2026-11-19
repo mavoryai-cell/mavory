@@ -4,7 +4,7 @@ url : ลิงก์ดาวน์โหลดจาก Google Drive (ว่�
 label : ข้อความบนปุ่มหลัก (เว้นได้) alt : ปุ่มดาวน์โหลดที่สอง { url, label } (เว้นได้)
 manual : ลิงก์วิดีโอสอนของอุปกรณ์นั้น (ว่างไว้ = ปุ่มขึ้นว่า "ยังไม่มีคู่มือ") */
 window.MAVORY_RELEASE = {
-version: "11.1.3",
+version: "11.1.9",
 date: "",
 notes: [],
 downloads: [
@@ -14,10 +14,10 @@ alt: { url: "https://drive.google.com/file/d/18Lk7rwMcJ_TkpZbqwp8cWH0IFcJjIhFO/v
 { id: "macos", name: "macOS", kind: "โปรแกรมสำหรับ Mac", desc: "ติดตั้งบนเครื่อง Mac (MacBook, iMac, Mac mini) — ไฟล์ .zip แตกไฟล์แล้วลากแอปไปไว้ที่ Applications · เปิดโปรแกรมแล้วอัปเดตเป็นรุ่นล่าสุดเองในแอป", ver: "v11.0.9",
 url: "https://drive.google.com/file/d/1Hzt8eDo_t3jgVSveGeaEO8L3J_NMgU2v/view", label: "ดาวน์โหลด Mac ชิป M1 ขึ้นไป",
 alt: { url: "https://drive.google.com/file/d/1L3f43efjXjHzVbUk-cjQXlXOhLEZwqSt/view", label: "ดาวน์โหลด Mac ชิป Intel" }, manual: "" },
-{ id: "android", name: "Android", kind: "แอปสำหรับมือถือ", desc: "ติดตั้งบนมือถือและแท็บเล็ต Android", ver: "v11.1.3",
-url: "https://drive.google.com/file/d/1UIR-vgm54YC6556krBg6hO9W6eUuXv30/view", manual: "https://www.youtube.com/watch?v=zel6ZeDYyNI" },
-{ id: "extension", name: "ส่วนขยาย Chrome", kind: "Extension สำหรับ Google Chrome", desc: "ใช้งานผ่านเบราว์เซอร์ Google Chrome บนคอมพิวเตอร์", ver: "v11.1.3",
-url: "https://drive.google.com/file/d/1c-NxHABGMFEEI8EhZgq1YZ525nBZguDE/view", manual: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" }
+{ id: "android", name: "Android", kind: "แอปสำหรับมือถือ", desc: "ติดตั้งบนมือถือและแท็บเล็ต Android", ver: "v11.1.9",
+url: "https://drive.google.com/file/d/1GM3pS5R94MbrUXUkltsxPgeqTCEde7Ng/view", manual: "https://www.youtube.com/watch?v=zel6ZeDYyNI" },
+{ id: "extension", name: "ส่วนขยาย Chrome", kind: "Extension สำหรับ Google Chrome", desc: "ใช้งานผ่านเบราว์เซอร์ Google Chrome บนคอมพิวเตอร์", ver: "v11.1.9",
+url: "https://drive.google.com/file/d/1wp7S6J8SIayKBctG6o81esrINm-VkN0p/view", manual: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" }
 ],
 flow: {
 full: { version: "v2.1", url: "https://flow.google.com/shared/tool/af024663-44ee-485f-ab8f-ec59f17a9b28" },
