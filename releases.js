@@ -4,20 +4,20 @@ url : ลิงก์ดาวน์โหลดจาก Google Drive (ว่�
 label : ข้อความบนปุ่มหลัก (เว้นได้) alt : ปุ่มดาวน์โหลดที่สอง { url, label } (เว้นได้)
 manual : ลิงก์วิดีโอสอนของอุปกรณ์นั้น (ว่างไว้ = ปุ่มขึ้นว่า "ยังไม่มีคู่มือ") */
 window.MAVORY_RELEASE = {
-version: "11.1.9",
+version: "12.0.4",
 date: "",
 notes: [],
 downloads: [
-{ id: "windows", name: "Windows", kind: "โปรแกรมสำหรับคอมพิวเตอร์", desc: "เลือกแบบติดตั้ง (แนะนำ) หรือแบบพกพาไม่ต้องติดตั้ง · เปิดโปรแกรมแล้วอัปเดตเป็นรุ่นล่าสุดเองในแอป", ver: "v11.0.9",
-url: "https://drive.google.com/file/d/1tfQm8ayS70F-zHv9Das-AmK2K4tOu8RN/view", label: "ดาวน์โหลดแบบติดตั้ง (แนะนำ)",
-alt: { url: "https://drive.google.com/file/d/18Lk7rwMcJ_TkpZbqwp8cWH0IFcJjIhFO/view", label: "ดาวน์โหลดแบบพกพา (Portable)" }, manual: "" },
+{ id: "windows", name: "Windows", kind: "โปรแกรมสำหรับคอมพิวเตอร์", desc: "เลือกแบบติดตั้ง (แนะนำ) หรือแบบพกพาไม่ต้องติดตั้ง · เปิดโปรแกรมแล้วอัปเดตเป็นรุ่นล่าสุดเองในแอป", ver: "v12.0.3",
+url: "https://drive.google.com/file/d/1XEiSEup5VJFfvcDJssY0I1Fxfn50FQDH/view", label: "ดาวน์โหลดแบบติดตั้ง (แนะนำ)",
+alt: { url: "https://drive.google.com/file/d/18Lk7rwMcJ_TkpZbqwp8cWH0IFcJjIhFO/view", label: "ดาวน์โหลดแบบพกพา (Portable รุ่น 11.0.9)" }, manual: "" },
 { id: "macos", name: "macOS", kind: "โปรแกรมสำหรับ Mac", desc: "ติดตั้งบนเครื่อง Mac (MacBook, iMac, Mac mini) — ไฟล์ .zip แตกไฟล์แล้วลากแอปไปไว้ที่ Applications · เปิดโปรแกรมแล้วอัปเดตเป็นรุ่นล่าสุดเองในแอป", ver: "v11.0.9",
 url: "https://drive.google.com/file/d/1Hzt8eDo_t3jgVSveGeaEO8L3J_NMgU2v/view", label: "ดาวน์โหลด Mac ชิป M1 ขึ้นไป",
 alt: { url: "https://drive.google.com/file/d/1L3f43efjXjHzVbUk-cjQXlXOhLEZwqSt/view", label: "ดาวน์โหลด Mac ชิป Intel" }, manual: "" },
-{ id: "android", name: "Android", kind: "แอปสำหรับมือถือ", desc: "ติดตั้งบนมือถือและแท็บเล็ต Android", ver: "v11.1.9",
-url: "https://drive.google.com/file/d/1GM3pS5R94MbrUXUkltsxPgeqTCEde7Ng/view", manual: "https://www.youtube.com/watch?v=zel6ZeDYyNI" },
-{ id: "extension", name: "ส่วนขยาย Chrome", kind: "Extension สำหรับ Google Chrome", desc: "ใช้งานผ่านเบราว์เซอร์ Google Chrome บนคอมพิวเตอร์", ver: "v11.1.9",
-url: "https://drive.google.com/file/d/1wp7S6J8SIayKBctG6o81esrINm-VkN0p/view", manual: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" }
+{ id: "android", name: "Android", kind: "แอปสำหรับมือถือ", desc: "ติดตั้งบนมือถือและแท็บเล็ต Android", ver: "v12.0.4",
+url: "https://drive.google.com/file/d/1aftm3DthGhM59-ROWk-DEPVLtkg8Lzk4/view", manual: "https://www.youtube.com/watch?v=zel6ZeDYyNI" },
+{ id: "extension", name: "ส่วนขยาย Chrome", kind: "Extension สำหรับ Google Chrome", desc: "ใช้งานผ่านเบราว์เซอร์ Google Chrome บนคอมพิวเตอร์", ver: "v12.0.4",
+url: "https://drive.google.com/file/d/1Wo3HF9OpJOJZYO_qF-zixX76NN-VG-7Z/view", manual: "https://www.youtube.com/watch?v=q_pI_QFB3Mo" }
 ],
 flow: {
 full: { version: "v2.4", url: "https://flow.google.com/shared/tool/42ac819b-41ac-4610-a6c8-745d4e3e8086" },
