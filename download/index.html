@@ -198,6 +198,19 @@ a.man:hover{background:rgba(0,208,205,.055)}
 .su-frame-wrap{margin-top:12px}
 .su-frame-wrap iframe{display:block;width:100%;height:760px;border:0;border-radius:14px;background:#02090d}
 .su-open{display:inline-block;margin-top:8px;font-size:11px;color:#57eee2;text-decoration:none}
+.guides{max-width:1180px;margin:8px auto 0;padding:0 16px}
+.guides .g-h{margin:4px 0 4px;font:700 22px var(--font-display);color:#eef6f8}
+.guides .g-sub{margin:0 0 14px;font-size:12px;color:#9aaaba}
+.guide-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.guide-card{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:#e6eef2;border:1px solid #1f3a48;border-radius:14px;padding:8px 8px 12px;background:rgba(5,20,29,.7);transition:border-color .15s,transform .15s}
+.guide-card:hover{border-color:rgba(20,227,210,.7);transform:translateY(-2px)}
+.g-thumb{position:relative;display:block;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#0a1620}
+.g-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.g-play{position:absolute;inset:auto auto 8px 8px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:12px;color:#04131a;background:linear-gradient(90deg,#14e3d2,#3aa9f5)}
+.g-tag{font-size:10px;font-weight:700;color:#57eee2;letter-spacing:.02em}
+.g-title{font-size:12.5px;line-height:1.45}
+@media(max-width:1000px){.guide-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:620px){.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 </head>
 <body>
@@ -317,6 +330,34 @@ a.man:hover{background:rgba(0,208,205,.055)}
       <p class="product-note">ต้องมีแพ็กเกจ Google Flow และเครดิตสำหรับสร้างวิดีโอ ค่าใช้จ่ายดังกล่าวแยกต่างหาก ไม่รวมในราคา MAVORY</p>
     </article>
   </section>
+  <section class="guides" id="guides" aria-label="วิดีโอสอนใช้งาน">
+    <div class="eyebrow">GUIDE</div>
+    <h2 class="g-h">วิดีโอสอนใช้งาน</h2>
+    <p class="g-sub">ดูก่อนเริ่มใช้งาน ตั้งแต่ติดตั้งจนสร้างคลิปและโพสต์ได้จริง</p>
+    <div class="guide-grid">
+      <a class="guide-card" href="https://www.youtube.com/watch?v=2YiWhnt4QQg" target="_blank" rel="noopener">
+        <span class="g-thumb"><img src="https://i.ytimg.com/vi/2YiWhnt4QQg/hqdefault.jpg" alt="" loading="lazy"><span class="g-play">▶</span></span>
+        <span class="g-tag">คลิปขายสินค้า</span><span class="g-title">สอนใช้แอปสร้างคลิปสินค้า ปักตะกร้า</span>
+      </a>
+      <a class="guide-card" href="https://www.youtube.com/watch?v=D75_h7KFnUs" target="_blank" rel="noopener">
+        <span class="g-thumb"><img src="https://i.ytimg.com/vi/D75_h7KFnUs/hqdefault.jpg" alt="" loading="lazy"><span class="g-play">▶</span></span>
+        <span class="g-tag">MAVORY Flow</span><span class="g-title">สอนทำละครสั้นด้วย AI ครบ 10 ขั้นตอน ตั้งแต่เริ่มจนโพสต์ได้จริง</span>
+      </a>
+      <a class="guide-card" href="https://www.youtube.com/watch?v=05oOFXNhhUc" target="_blank" rel="noopener">
+        <span class="g-thumb"><img src="https://i.ytimg.com/vi/05oOFXNhhUc/hqdefault.jpg" alt="" loading="lazy"><span class="g-play">▶</span></span>
+        <span class="g-tag">ละครสั้น · Meta AI</span><span class="g-title">สร้างละครด้วย Meta AI</span>
+      </a>
+      <a class="guide-card" href="https://youtu.be/Iyg3WrSMhKA" target="_blank" rel="noopener">
+        <span class="g-thumb"><img src="https://i.ytimg.com/vi/Iyg3WrSMhKA/hqdefault.jpg" alt="" loading="lazy"><span class="g-play">▶</span></span>
+        <span class="g-tag">ติดตั้ง Windows / Mac</span><span class="g-title">Install MAVORY PC</span>
+      </a>
+      <a class="guide-card" href="https://youtu.be/q_pI_QFB3Mo" target="_blank" rel="noopener">
+        <span class="g-thumb"><img src="https://i.ytimg.com/vi/q_pI_QFB3Mo/hqdefault.jpg" alt="" loading="lazy"><span class="g-play">▶</span></span>
+        <span class="g-tag">ติดตั้งส่วนขยาย Chrome</span><span class="g-title">สอนการติดตั้ง Mavory Extension</span>
+      </a>
+    </div>
+  </section>
+
   <main class="lower">
     <section class="contact" aria-label="ติดต่อเรา">
       <div class="eyebrow">CONTACT</div>
